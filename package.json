@@ -1,13 +1,13 @@
-  {
-  "name": "MaterialDarker",
-  "version": "0.3.0",
-  "description": "The Material Darker theme for JupyterLab",
-  "homepage": "https://github.com/oriolmirosa/jupyterlab_materialdarker",
+{
+  "name": "BlueMoon",
+  "version": "0.1.0",
+  "description": "The Blue Moon theme for JupyterLab, forked from Oriol Mirosa's Material Darker theme",
+  "homepage": "https://github.com/MJTMace/jupyterlab_bluemoon",
   "bugs": {
-    "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker/issues"
+    "url": "https://github.com/MJTMace/jupyterlab_bluemoon/issues"
   },
   "license": "BSD-3-Clause",
-  "author": "Oriol Mirosa",
+  "author": "Mia Mace",
   "files": [
     "lib/*.d.ts",
     "lib/*.js.map",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oriolmirosa/jupyterlab_materialdarker.git"
+    "url": "https://github.com/MJTMace/jupyterlab_bluemoon.git"
   },
   "scripts": {
     "build": "run-p build:**",

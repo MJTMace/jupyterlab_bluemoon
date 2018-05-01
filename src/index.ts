@@ -9,16 +9,16 @@ import {
 
 
 /**
- * A plugin for the MaterialDarker theme for JupyterLab
+* A plugin for the BlueMoon theme for JupyterLab
  */
 const plugin: JupyterLabPlugin<void> = {
-  id: 'MaterialDarker:plugin',
+  id: 'BlueMoon:plugin',
   requires: [IThemeManager],
   activate: function(app: JupyterLab, manager: IThemeManager) {
     manager.register({
-      name: 'Material Darker',
+    name: 'Blue Moon',
       load: function() {
-        return manager.loadCSS('MaterialDarker/index.css');
+      return manager.loadCSS('BlueMoon/index.css');
       },
       unload: function() {
         return Promise.resolve(void 0);

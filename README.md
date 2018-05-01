@@ -1,6 +1,6 @@
-# Material Darker JupyterLab Extension
+# Blue Moon JupyterLab Extension
 
-This is my port of the [Material Darker theme](http://equinsuocha.io/material-theme/#/darker) for JupyterLab. It's a work in progress.
+This is my fork of the [Material Darker theme for JupyterLab](https://github.com/oriolmirosa/jupyterlab_materialdarker) by Oriol Mirosa. It's a work in progress. The colourscheme is **loosely** based on Ethan Schoonover's [Solarized dark theme](http://ethanschoonover.com/solarized).
 
 ## Install
 
@@ -11,9 +11,9 @@ npm run build
 jupyter labextension install
 ```
 
-(If you get this error in the build process: `ERROR in Entry module not found: Error: Can't resolve 'style-loader'`, run `npm install style-loader --save` and try building again)
+(If you get this error in the build process: `ERROR in Entry module not found: Error: Can't resolve 'style-loader'`, run `npm install style-loader --save` and try building again). You may need to run `npm install` for dependencies.
 
-After launching JupyterLab, select the `Material Darker` theme from the main menu: `Settings` > `JupyterLab Theme` > `Material Darker`
+After launching JupyterLab, select the `Blue Moon` theme from the main menu: `Settings` > `JupyterLab Theme` > `Blue Moon`
 
 
-![The Material Darker theme on JupyterLab](https://user-images.githubusercontent.com/6955013/37124604-0450d6dc-2237-11e8-95d8-0e822ee92c49.png)
+![The Blue Moon theme on JupyterLab](./screenshot.png)

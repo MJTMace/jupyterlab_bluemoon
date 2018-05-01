@@ -104,7 +104,7 @@ all of MD as it is not optimized for dense, information rich UIs.
    */
 
   /* Defaults use Material Design specification */
-  --jp-ui-font-color0: white;
+  --jp-ui-font-color0: #eee8d5;
   --jp-ui-font-color1: var(--md-grey-300);
   --jp-ui-font-color2: var(--md-grey-500);
   --jp-ui-font-color3: var(--md-grey-700);
@@ -146,10 +146,10 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-content-heading-font-weight: 500;
 
   /* Defaults use Material Design specification */
-  --jp-content-font-color0: rgba(255,255,255,1.0);
-  --jp-content-font-color1: rgba(255,255,255,1.0);
-  --jp-content-font-color2: rgba(255,255,255,0.7);
-  --jp-content-font-color3: rgba(255,255,255,0.5);
+  --jp-content-font-color0: rgba(238,232,213,0.9);
+  --jp-content-font-color1: rgba(238,232,213,0.9);
+  --jp-content-font-color2: rgba(238,232,213,0.7);
+  --jp-content-font-color3: rgba(238,232,213,0.5);
 
   --jp-content-link-color: var(--md-blue-300);
 
@@ -175,23 +175,23 @@ all of MD as it is not optimized for dense, information rich UIs.
    * theme these would go from light to dark.
    */
 
-  --jp-layout-color0: #212121; /*#111111;*/
-  --jp-layout-color1: #282828; /*var(--md-grey-900);*/
-  --jp-layout-color2: #424242;
-  --jp-layout-color3: #212121; /*var(--md-grey-700);*/
-  --jp-layout-color4: var(--md-grey-600);
+  --jp-layout-color0: #033746; 
+  --jp-layout-color1: #064353; 
+  --jp-layout-color2: #00556c;
+  --jp-layout-color3: #002833; 
+  --jp-layout-color4: #eee8d5;
 
   /* Brand/accent */
 
-  --jp-brand-color0: #82AAFF;
-  --jp-brand-color1: #82AAFF;
+  --jp-brand-color0: #008B8B;
+  --jp-brand-color1: #008B8B;
   --jp-brand-color2: var(--md-blue-300);
   --jp-brand-color3: var(--md-blue-100);
 
   --jp-accent-color0: var(--md-green-700);
   --jp-accent-color1: var(--md-green-500);
   --jp-accent-color2: var(--md-green-300);
-  --jp-accent-color3: var(--md-green-100);
+  --jp-accent-color3: var(-- md-green-100);
 
   /* State colors (warn, error, success, info) */
 
@@ -234,20 +234,16 @@ all of MD as it is not optimized for dense, information rich UIs.
   --jp-cell-prompt-letter-spacing: 0px;
   --jp-cell-prompt-opacity: 1.0;
   --jp-cell-prompt-not-active-opacity: 0.5;
-  --jp-cell-prompt-not-active-font-color: var(--md-grey-700);
-  /* A custom blend of MD grey and blue 600
-   * See https://meyerweb.com/eric/tools/color-blend/#546E7A:1E88E5:5:hex */
-  --jp-cell-inprompt-font-color: #4A4A4A;
-  /* A custom blend of MD grey and orange 600
-   * https://meyerweb.com/eric/tools/color-blend/#546E7A:F4511E:5:hex */
-  --jp-cell-outprompt-font-color: #4A4A4A;
+  --jp-cell-prompt-not-active-font-color: #839496;
+  --jp-cell-inprompt-font-color: #fdf6e3;
+  --jp-cell-outprompt-font-color: #93a1a1;
 
   /* Notebook specific styles */
 
   --jp-notebook-padding: 10px;
   --jp-notebook-scroll-padding: 100px;
-  --jp-notebook-select-background: var(--jp-layout-color1);
-  --jp-notebook-multiselected-color: #353535; /*rgba(33,150,243,.24);*/
+  --jp-notebook-select-background: var(--jp-layout-color2);
+  --jp-notebook-multiselected-color: #353535; 
 
   /* Rendermime styles */
 
@@ -285,37 +281,37 @@ all of MD as it is not optimized for dense, information rich UIs.
 
   --jp-editor-selected-background: var(--jp-layout-color1);
   --jp-editor-selected-focused-background: rgba(33,150,243,.24);
-  --jp-editor-cursor-color: #FFCC00; /*var(--jp-ui-font-color0);*/
+  --jp-editor-cursor-color: #FFCC00; 
 
   /* Code mirror specific styles */
 
-  --jp-mirror-editor-keyword-color: #C792EA;
-  --jp-mirror-editor-atom-color: #88F;
-  --jp-mirror-editor-number-color: #F78C6C;
-  --jp-mirror-editor-def-color: #C792EA;
-  --jp-mirror-editor-variable-color: #EEFFFF;
-  --jp-mirror-editor-variable-2-color: #EEFFFF;
-  --jp-mirror-editor-variable-3-color: #EEFFFF;
+  --jp-mirror-editor-keyword-color: #b58900;
+  --jp-mirror-editor-atom-color: #2aa198;
+  --jp-mirror-editor-number-color: #2aa198;
+  --jp-mirror-editor-def-color: #268bd2;
+  --jp-mirror-editor-variable-color: #93a1a1;
+  --jp-mirror-editor-variable-2-color: #93a1a1;
+  --jp-mirror-editor-variable-3-color: #93a1a1;
   --jp-mirror-editor-punctuation-color: #89DDFF;
-  --jp-mirror-editor-property-color: #82AAFF;
-  --jp-mirror-editor-operator-color: #89DDFF;
-  --jp-mirror-editor-comment-color: #4A4A4A;
-  --jp-mirror-editor-string-color: #C3E88D;
-  --jp-mirror-editor-string-2-color: #C3E88D;
+  --jp-mirror-editor-property-color: #cb4b16;
+  --jp-mirror-editor-operator-color: #268bd2;
+  --jp-mirror-editor-comment-color: #839496;
+  --jp-mirror-editor-string-color: #2aa198;
+  --jp-mirror-editor-string-2-color: #cb4b16;
   --jp-mirror-editor-meta-color: #82AAFF;
   --jp-mirror-editor-qualifier-color: #555;
-  --jp-mirror-editor-builtin-color: #82AAFF;
-  --jp-mirror-editor-bracket-color: #89DDFF;
-  --jp-mirror-editor-tag-color: #F07178;
+  --jp-mirror-editor-builtin-color: #268bd2;
+  --jp-mirror-editor-bracket-color: #b58900;
+  --jp-mirror-editor-tag-color: #b58900;
   --jp-mirror-editor-attribute-color: #FFCB6B;
   --jp-mirror-editor-header-color: #C3E88D;
   --jp-mirror-editor-quote-color: #C3E88D;
   --jp-mirror-editor-link-color: #F78C6C;
-  --jp-mirror-editor-error-color: #FF5370;
-  --jp-mirror-editor-hr-color: #FFFBF7;
+  --jp-mirror-editor-error-color: #FDB813;
+  --jp-mirror-editor-hr-color: #839496;
 
   /* Vega extension styles */
 
-  --jp-vega-background: #212121;
+  --jp-vega-background: #033746;
 
 }
